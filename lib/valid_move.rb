@@ -1,4 +1,4 @@
-def valid_move?(index, board)
+def valid_move?
   if position_taken?
     return true
   else
