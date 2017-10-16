@@ -1,3 +1,5 @@
+board = [" "," "," "," "," "," "," "," "," ",]
+
 def valid_move?(board, index)
   if position_taken?
     return true
@@ -5,8 +7,6 @@ def valid_move?(board, index)
     return false
   end
 end
-
-board = [" "," "," "," "," "," "," "," "," ",]
 
 def position_taken?(board, index)
   if board[index] == " "
