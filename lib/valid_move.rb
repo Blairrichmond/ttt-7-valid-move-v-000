@@ -1,4 +1,4 @@
-def valid_move?
+def valid_move?(0)
   if position_taken?
     return true
   else
